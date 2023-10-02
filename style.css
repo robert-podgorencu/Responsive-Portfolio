@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#introduction {
+    background-image: url("images/background.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    width: auto;
+}
+#intro-message {
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100vh;
+    width: auto;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    section
+    {
+     height: 300%; 
+    }
+
+    #introduction {
+        height: 50vh;
+    }
+
+    #projects {
+        height: 2200px!important;
+    }
+
+    #form-inputs{
+        margin-left: 0!important;
+        width: 100%!important;
+    }
+
+    #form-inputs.div, #submit-button {
+        width: 100%!important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    section
+    {
+     height: 300%; 
+    }
+
+    #introduction {
+        height: 50vh;
+    }
+
+    #projects {
+        height: 2400px!important;
+    }
+}
+
+#projects {
+    height: 2000px;
+}
+
+form {
+    width: 100%;
+}
+
+
+#form-inputs {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#submit-button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+label input {
+    padding: 10px 12px;
+}
+
+footer {
+    color: gray;
+    background: black;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}

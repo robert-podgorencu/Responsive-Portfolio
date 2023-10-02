@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <div class="container-fluid px-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#introduction">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <div class="container py-5">
+                <div id="intro-message" class="row text-center mt-5">
+                    <div class="col-lg-12 py-5 mt-5">
+                        <h3>Hello, I'm Robert</h3>
+                        <h1>
+                            Automation tester and
+                            <br />
+                            Front-End developer trainee
+                            <br />
+                            And this is my portfolio
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container py-5 text-center">
+                <h2>My SKILLS:</h2>
+                <div id="card-list" class="row row-cols-1 row-cols-md-3 g-4 mt-2 py-5">
+                    <div class="col">
+                        <div class="card h-100 w-100">
+                            <img src="images/write-code.png" class="card-img-top mt-3 h-25 w-25 align-self-center"
+                                alt="..." />
+                            <div class="card-body h-75 w-100">
+                                <h5 class="card-title">PROGRAMMING LANGUAGES:</h5>
+                                <ul class="card-text">
+                                    <li>Java</li>
+                                    <li>C/C++</li>
+                                    <li>Python</li>
+                                    <li>TypeScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 w-100">
+                            <img src="images/frameworks.png" class="card-img-top mt-3 h-25 w-25 align-self-center"
+                                alt="..." />
+                            <div class="card-body h-75 w-100">
+                                <h5 class="card-title">FRAMEWORKS:</h5>
+                                <ul class="card-text">
+                                    <li>Spring/SpringBoot</li>
+                                    <li>Arduino Libraries</li>
+                                    <li>Android Libraries</li>
+                                    <li>Angular</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 w-100">
+                            <img src="images/database.png" class="card-img-top mt-3 h-25 w-25 align-self-center" alt="..." />
+                            <div class="card-body h-75 w-100">
+                                <h5 class="card-title">DATABASES:</h5>
+                                <ul class="card-text">
+                                    <li>MySQL</li>
+                                    <li>Firebase Firestore</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="project-title text-center mt-5 mb-5">My recent projects:</h2>
+                <div id="project-bank" class="row mt-5 mb-5">
+                    <div class="row">
+                        <h3 class="project-title text-center mt-5 mb-5">Banking System Back-End</h3>
+                        <div class="col-lg-7">
+                            <img src="images/bank project.png" alt="image of postman" class="img-fluid">
+                        </div>
+                        <div class="col-lg-5">
+                            <p>
+                                This project has been created using Java/SpringBoot and MySQL
+                                and it has the following functionalities:
+                            </p>
+                            <ul>
+                                <li>Have the possibility to login / logout</li>
+                                <li>
+                                    Be able to have multiple accounts in different currencies
+                                </li>
+                                <li>
+                                    Be able to see the available balance for all the accounts
+                                </li>
+                                <li>
+                                    Be able to exchange money from a currency to another
+                                    (hardcoded exchange rate)
+                                </li>
+                                <li>Be able to make a transaction to another user</li>
+                                <li>Be able to request money from another user</li>
+                                <li>
+                                    Be able to see the transactions history (income/ outcome)
+                                </li>
+                            </ul>
+                            <a id="bank-project-link" href="https://github.com/robertpgu/Bank-System">
+                                <button id="view-project-btn" class="btn btn-primary w-100">See The Project</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="project-journal" class="row mt-5 mb-5">
+                    <div class="row">
+                        <h3 class="project-title text-center mt-5 mb-5">Journal Android App</h3>
+                        <div class="col-lg-7">
+                            <img src="images/journal project.png" alt="image of postman" class="img-fluid">
+                        </div>
+                        <div class="col-lg-5">
+                            <p>
+                                This project is an android application written in Java which
+                                has the following functionalities:
+                            </p>
+                            <ul>
+                                <li>Have the possibility to login / logout / sign up</li>
+                                <li>Add journal posts (title, photo, description)</li>
+                                <li>View the list of posts</li>
+                                <li>The data is saved using Google Firebase Firestore</li>
+                            </ul>
+                            <a id="journal-project-link" href="https://github.com/robertpgu/Bank-System">
+                                <button id="view-project-btn" class="btn btn-primary w-100">See The Project</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="project-prosumers" class="row mt-5 mb-5">
+                    <div class="row">
+                        <h3 class="project-title text-center mt-5 mb-5">
+                            Fullstack Website for Prosumers and Energy Companies
+                        </h3>
+                        <div class="col-lg-7">
+                            <img src="images/prosumers project.png" alt="image of postman" class="img-fluid">
+                        </div>
+                        <div class="col-lg-5">
+                            <p>
+                                This project is a fullstack web application written in
+                                Java/SpringBoot and TypeScript/Angular which has the following
+                                functionalities:
+                            </p>
+                            <ul>
+                                <li>Two types of users: Company and Prosumers</li>
+                                <li>Have the possibility to login / logout / sign up</li>
+                                <li>Add posts</li>
+                                <li>
+                                    View the energy generated by the Prosumer's solar panels
+                                </li>
+                                <li>View the list of posts created by the other users</li>
+                                <li>
+                                    The back-end receives information from an IoT system through
+                                    HTTP requests
+                                </li>
+                            </ul>
+                            <a id="prosumers-project-link" href="https://youtu.be/A-B3iyRjGY8">
+                                <button id="view-project-btn" class="btn btn-primary w-100">See The Project</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="container-fluid mt-5">
+                <form  id="contact" class="text-center mt-5 mb-5">
+                    <h2>CONTACT ME</h2>
+                    <div id="form-inputs">
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" />
+                        </div>
+                        <div class="mb-4">
+                            <label for="subject" class="form-label">Subject:</label>
+                            <input type="text" class="form-control" id="subject" />
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" id="submit-button" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container d-flex justify-content-center align-items-center">
+            <p>Author: Robert Podgorencu</p>
+        </div>    
+    </footer>
+</body>
+
+</html>
